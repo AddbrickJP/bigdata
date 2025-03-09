@@ -21,6 +21,10 @@ export default {
     }
 
     if (title) {
+      let myTitle = ['首页', "系统管理"]
+     // title只留下myTitle中的内容
+  
+
       if (title.length > 5) {
         vnodes.push(<span slot='title' title={(title)}>{(title)}</span>)
       } else {
